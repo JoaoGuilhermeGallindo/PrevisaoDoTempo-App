@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AppPrevisao</title>
+
+
+</head>
+
+<body>
+
+    <div class="caixa-maior">
+        <div class="cabeçario">
+            <h2 class="titulo">Previsão do Tempo </h2>
+            <input type="text" placeholder="Buscar Cidade" class="input-cidade">
+            <button class="btn-pesquisa" onclick="Coletar()">Pesquisar 🔍</button>
+            <div class="CityName">
+                <p class="cidade">Aracaju </p>
+            </div>
+
+        </div>
+        <div class="resultados">
+
+            <div class="caixa-media">
+                <div class="imagem">
+                    <img class="img-previsao" src="https://openweathermap.org/img/wn/01d.png" alt="">
+                </div>
+                <div class="temp_previsao">
+                    <p class="graus">27 <sup>°C</sup> </p>
+                    <p class="previsao"> Ensolarado</p>
+                </div>
+            </div>
+
+            <div class="caixa-pequena">
+                <p class="Umidade">Umidade Relativa do Ar: 72%</p>
+                <p class="Pressão">8%</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
